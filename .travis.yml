@@ -17,6 +17,7 @@ script:
 deploy:
   provider: pages                         # Specify the gh-pages deployment method
   skip_cleanup: true                      # Don't remove files
+  github_token: $tokens                   # Set in travis-ci.org dashboard
   local_dir: docs                         # Deploy the docs folder
   on:
     branch: master
