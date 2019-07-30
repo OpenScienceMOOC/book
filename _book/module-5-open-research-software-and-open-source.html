@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 Module 5: Open Research Software and Open Source | Open Science MOOC Book</title>
+  <meta name="description" content="This is a minimal example of using the bookdown package to write the Open Science MOOC Book that will link all modules and supplemental material." />
+  <meta name="generator" content="bookdown 0.12 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 Module 5: Open Research Software and Open Source | Open Science MOOC Book" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is a minimal example of using the bookdown package to write the Open Science MOOC Book that will link all modules and supplemental material." />
+  <meta name="github-repo" content="opensciencemooc/book" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Module 5: Open Research Software and Open Source | Open Science MOOC Book" />
+  
+  <meta name="twitter:description" content="This is a minimal example of using the bookdown package to write the Open Science MOOC Book that will link all modules and supplemental material." />
+  
+
+<meta name="author" content="Samuel Guay on behalf of the Open Science MOOC Team" />
+
+
+<meta name="date" content="2019-07-30" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="module4.html">
+<link rel="next" href="module6.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Open Science MOOC Book</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a><ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#rationale"><i class="fa fa-check"></i><b>0.1</b> Rationale</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#warning---tentative-book"><i class="fa fa-check"></i>Warning - Tentative book</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="module1.html"><a href="module1.html"><i class="fa fa-check"></i><b>1</b> Open Principles</a></li>
+<li class="chapter" data-level="2" data-path="module2.html"><a href="module2.html"><i class="fa fa-check"></i><b>2</b> Open Collaboration</a><ul>
+<li class="chapter" data-level="2.1" data-path="module2.html"><a href="module2.html#in-construction"><i class="fa fa-check"></i><b>2.1</b> In construction</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="module3.html"><a href="module3.html"><i class="fa fa-check"></i><b>3</b> Reproducible research and data analysis</a><ul>
+<li class="chapter" data-level="3.1" data-path="module3.html"><a href="module3.html#in-construction-1"><i class="fa fa-check"></i><b>3.1</b> In construction</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="module4.html"><a href="module4.html"><i class="fa fa-check"></i><b>4</b> Open research data</a><ul>
+<li class="chapter" data-level="4.1" data-path="module4.html"><a href="module4.html#in-construction-2"><i class="fa fa-check"></i><b>4.1</b> In construction</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html"><i class="fa fa-check"></i><b>5</b> Module 5: Open Research Software and Open Source</a><ul>
+<li class="chapter" data-level="5.1" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#table-of-contents"><i class="fa fa-check"></i><b>5.1</b> Table of Contents</a></li>
+<li class="chapter" data-level="5.2" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#introduction"><i class="fa fa-check"></i><b>5.2</b> Introduction <a name="Introduction"></a></a><ul>
+<li class="chapter" data-level="5.2.1" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#who-is-this-module-for"><i class="fa fa-check"></i><b>5.2.1</b> Who is this module for?</a></li>
+<li class="chapter" data-level="5.2.2" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#specific-learning-objectives-for-this-module"><i class="fa fa-check"></i><b>5.2.2</b> <strong>Specific learning objectives for this Module</strong>:</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#what-is-open-source-software"><i class="fa fa-check"></i><b>5.3</b> What is Open Source Software <a name="What_OSS"></a></a></li>
+<li class="chapter" data-level="5.4" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#principles-of-open-source-software"><i class="fa fa-check"></i><b>5.4</b> Principles of Open Source Software <a name="Principles"></a></a></li>
+<li class="chapter" data-level="5.5" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#an-open-source-checklist"><i class="fa fa-check"></i><b>5.5</b> An Open Source checklist</a></li>
+<li class="chapter" data-level="5.6" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#the-open-source-community-and-its-governance"><i class="fa fa-check"></i><b>5.6</b> The Open Source community and its governance <a name="OS_Community"></a></a><ul>
+<li class="chapter" data-level="5.6.1" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#for-individual-projects"><i class="fa fa-check"></i><b>5.6.1</b> For individual projects</a></li>
+</ul></li>
+<li class="chapter" data-level="5.7" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#existing-platforms-and-tools-for-open-source-software"><i class="fa fa-check"></i><b>5.7</b> Existing platforms and tools for Open Source Software <a name="Platforms"></a></a><ul>
+<li class="chapter" data-level="5.7.1" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#github"><i class="fa fa-check"></i><b>5.7.1</b> GitHub <a name="GitHub"></a></a></li>
+</ul></li>
+<li class="chapter" data-level="5.8" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#open-source-software-used-in-research"><i class="fa fa-check"></i><b>5.8</b> Open Source Software used in research <a name="Research"></a></a></li>
+<li class="chapter" data-level="5.9" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#getting-started-with-oss---faq"><i class="fa fa-check"></i><b>5.9</b> Getting Started with OSS - FAQ <a name="FAQ"></a></a></li>
+<li class="chapter" data-level="5.10" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#making-good-software-for-re-use"><i class="fa fa-check"></i><b>5.10</b> Making good software for re-use <a name="Reuse"></a></a></li>
+<li class="chapter" data-level="5.11" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#simple-rules-for-reproducible-computational-research"><i class="fa fa-check"></i><b>5.11</b> 10 simple rules for reproducible computational research</a></li>
+<li class="chapter" data-level="5.12" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#open-source-licensing"><i class="fa fa-check"></i><b>5.12</b> Open Source licensing <a name="Licensing"></a></a></li>
+<li class="chapter" data-level="5.13" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#software-citation"><i class="fa fa-check"></i><b>5.13</b> Software citation <a name="Citation"></a></a></li>
+<li class="chapter" data-level="5.14" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#using-github-and-zenodo"><i class="fa fa-check"></i><b>5.14</b> Using GitHub and Zenodo <a name="GitHub_Zenodo"></a></a></li>
+<li class="chapter" data-level="5.15" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#collaborating-and-contributing-through-open-source"><i class="fa fa-check"></i><b>5.15</b> Collaborating and contributing through Open Source <a name="Collaborating"></a></a></li>
+<li class="chapter" data-level="5.16" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#where-to-go-from-here"><i class="fa fa-check"></i><b>5.16</b> Where to go from here <a name="Future_OSS"></a></a><ul>
+<li class="chapter" data-level="5.16.1" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#further-reading"><i class="fa fa-check"></i><b>5.16.1</b> Further reading <a name="Reading"></a></a></li>
+<li class="chapter" data-level="5.16.2" data-path="module-5-open-research-software-and-open-source.html"><a href="module-5-open-research-software-and-open-source.html#development-team"><i class="fa fa-check"></i><b>5.16.2</b> Development Team <a name="Development_team"></a></a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="module6.html"><a href="module6.html"><i class="fa fa-check"></i><b>6</b> Open Access to research papers</a><ul>
+<li class="chapter" data-level="6.1" data-path="module6.html"><a href="module6.html#in-construction-3"><i class="fa fa-check"></i><b>6.1</b> In construction</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="module7.html"><a href="module7.html"><i class="fa fa-check"></i><b>7</b> Open evaluation</a><ul>
+<li class="chapter" data-level="7.1" data-path="module7.html"><a href="module7.html#in-construction-4"><i class="fa fa-check"></i><b>7.1</b> In construction</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="module8.html"><a href="module8.html"><i class="fa fa-check"></i><b>8</b> Public engagement with Science</a><ul>
+<li class="chapter" data-level="8.1" data-path="module8.html"><a href="module8.html#in-construction-5"><i class="fa fa-check"></i><b>8.1</b> In construction</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="module9.html"><a href="module9.html"><i class="fa fa-check"></i><b>9</b> Open education resources</a><ul>
+<li class="chapter" data-level="9.1" data-path="module9.html"><a href="module9.html#in-construction-6"><i class="fa fa-check"></i><b>9.1</b> In construction</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="module10.html"><a href="module10.html"><i class="fa fa-check"></i><b>10</b> Open advocacy</a><ul>
+<li class="chapter" data-level="10.1" data-path="module10.html"><a href="module10.html#in-construction-7"><i class="fa fa-check"></i><b>10.1</b> In construction</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Open Science MOOC Book</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="module-5-open-research-software-and-open-source" class="section level1">
+<h1><span class="header-section-number">Chapter 5</span> Module 5: Open Research Software and Open Source</h1>
+<div id="table-of-contents" class="section level2">
+<h2><span class="header-section-number">5.1</span> Table of Contents</h2>
+<ul>
+<li><a href="#Introduction">Introduction</a></li>
+<li><a href="#What_OSS">What is Open Source Software</a></li>
+<li><a href="#Principles">Principles of Open Source Software</a></li>
+<li><a href="#OS_Community">The Open Source community, governance, and contributions</a></li>
+<li><a href="#Platforms">Existing platforms and tools for Open Source Software</a></li>
+<li><a href="#Research">Open Source Software used in research</a></li>
+<li><a href="#FAQ">Getting Started with OSS - FAQ</a></li>
+<li><a href="#Reuse">Making good software for re-use</a></li>
+<li><a href="#Licensing">Open Source licensing</a></li>
+<li><a href="#Citation">Software citation</a></li>
+<li><a href="#GitHub_Zenodo">Using GitHub and Zenodo</a></li>
+<li><a href="#Collaborating">Collaborating through Open Source</a></li>
+<li><a href="#Future_OSS">Where to go from here</a></li>
+</ul>
+<p><strong>PLEASE NOTE</strong> that an audio version of this is available to download via <a href="https://soundcloud.com/open-science-mooc/module-5-open-source-and-open-research-software">Soundcloud</a> and <a href="https://www.youtube.com/watch?v=BHrOEmKk5zM">YouTube</a>.</p>
+</div>
+<div id="introduction" class="section level2">
+<h2><span class="header-section-number">5.2</span> Introduction <a name="Introduction"></a></h2>
+<p>Welcome to <strong>Module 5</strong> of the Open Science MOOC: <strong>Open Research Software and Open Source</strong>.</p>
+<p>This module has been developed <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source">in the open</a> through collaboration by an international team of <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/README.md#development-team-">Open Source afficianados</a>. Everything you see here has been developed in the open through interactive feedback and collaboration from the wider community. It comprises a series of videos, infographics, text-based reading, and practical tasks for you to sink you teeth into.</p>
+<p>Don’t forget you can join in the discussions over at our open <a href="https://osmooc.herokuapp.com/"><strong>Slack channel</strong></a>. Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!</p>
+<div id="who-is-this-module-for" class="section level3">
+<h3><span class="header-section-number">5.2.1</span> Who is this module for?</h3>
+<p>This module is designed primarily for computational researchers at the graduate and undergraduate level, as well as budding data scientists and any other researcher who uses analytical code or software. In a modern day research environment, this covers pretty much anyone who uses a computer for ther work.</p>
+<blockquote>
+<p>“An article about computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result.” - J. Buckheit and D. L. Donoho, 1995.</p>
+</blockquote>
+<p>Software and technology underpin much of modern research, which is now almost inevitably computational in one way or another - search engines, social networking platforms, analytical software, and digital publishing. With this, there is an ever-increasing demand for more sophisticated Open Source Software, matched by an increasing willingness for researchers to openly collaborate on new tools.</p>
+<p>The power of Open Source is in that it lowers the barriers to collaboration and adoption, therefore allowing ideas and technology to spread more rapidly. This Module will introduce the necessary tools required for transforming software into something that can be openly accessed and re-used by others.</p>
+<p><img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/open_research_software_open_source.png?raw=true" width="800" /></p>
+<p align="center">
+<i>Image by Patrick Hochstenbach (CC0 1.0 Universal)</i>
+</p>
+<p><br/></p>
+</div>
+<div id="specific-learning-objectives-for-this-module" class="section level3">
+<h3><span class="header-section-number">5.2.2</span> <strong>Specific learning objectives for this Module</strong>:</h3>
+<ol style="list-style-type: decimal">
+<li><p>Learn the characteristics of open software; understand the <strong>ethical, legal, economic, and research impact arguments for and against Open Source Software</strong>, and further understand the quality requirements of open code.</p></li>
+<li><p>Be able to turn code made for personal use into open code which is accessible by others.</p></li>
+<li><p>Use software (tools) that utilizes open content and encourages wider collaboration.</p></li>
+</ol>
+<p><br/></p>
+</div>
+</div>
+<div id="what-is-open-source-software" class="section level2">
+<h2><span class="header-section-number">5.3</span> What is Open Source Software <a name="What_OSS"></a></h2>
+<p>Virtually all modern scientific research workflows rely on a range of software tools, either operating on different datasets, with different parameters, and applied iteratively in various ways (data science) or operating on different inputs and using models and methods to predict some output state (computational science). Open Source Software (OSS) is computer software in which the full source code is available under a specific license that enables other users to access, view, modify, and redistribute that code for any purpose. Because OSS requires such a license, it typically remains free of charge by default. This explicit licensing is also what differentiates OSS from free software. Re-using OSS for analysis, simulation and visualisation for research is also typically easier and more flexible compared to proprietary software. Often, whether we know it or not, we are already using OSS as part of our own research workflows.</p>
+<p>OSS fits into the broader scheme of Open Science as it helps to make the full research environment, including the software that produced the research results, fully accessible and re-usable. As such, it forms a necessary component for the best practices (<a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Jim%C3%A9nez%20et%20al.%2C%202018.pdf">Jiménez et al., 2018</a>) and repeatability and reproducibility of research (both personally and by others), along with other components, such as sharing data (<a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Stodden%2C%202010.pdf">Stodden, 2010</a>).</p>
+<p>In some cases, sharing of source code can even be conditional for the acceptance of associated research manuscripts (<a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Shamir%20et%20al.%2C%202013.pdf">Shamir et al., 2013</a>). It is also generally perceived to increase research impact (<a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Vandewalle%2C%202012.pdf">Vandwalle, 2012</a>).</p>
+<p>Some of common advantages for developers include:</p>
+<ul>
+<li><p>Increased developer loyalty and empowerment;</p></li>
+<li><p>Lower costs of services and marketing;</p></li>
+<li><p>Increased branding of services and products;</p></li>
+<li><p>Production of high quality software at lower expense;</p></li>
+<li><p>Flexibility and rapid innovation;</p></li>
+<li><p>Customisation and modular integration;</p></li>
+<li><p>Increased reliability and independence; and</p></li>
+<li><p>Based on open standards available to everyone.</p></li>
+</ul>
+<p>As such, the main advantages for researchers (users) include <strong>lower costs</strong>, <strong>increased transparency</strong>, <strong>increased security and stability</strong>, <strong>no vendor ‘lock in’ with increased user control</strong>, and <strong>overall higher quality</strong>. Furthermore, sharing OSS allows researchers to receive credit for their efforts, for example through direct software citation <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf">(Smith et al., 2016)</a>.</p>
+<p>Commonly used OSS include the <a href="https://www.mozilla.org/en-US/firefox/">Mozilla Firefox</a> internet browser and the <a href="https://www.libreoffice.org/">LibreOffice</a> full office suite. LibreOffice is similar to the popular Microsoft Office, including a word processor, spreadsheet manager, and slide presentation software, but is completely free and Open Source.</p>
+<p>Some regard the OSS movement to represent a counter-movement to neoliberalism and privatisation, through defiance of regulations and norms in the construction and re-use of information, and a potential transformation of modern-day capitalism through making software abundantly available with minimal effort. See <a href="http://www.redalyc.org/html/742/74212712006/">The free/open source software movement: Resistance or change?</a> by Panayiota Georgopoulou for more on this topic.</p>
+<p><br/></p>
+</div>
+<div id="principles-of-open-source-software" class="section level2">
+<h2><span class="header-section-number">5.4</span> Principles of Open Source Software <a name="Principles"></a></h2>
+<p>The <a href="https://opensource.org/">Open Source Initiative</a>, one of the pioneers of OSS, offers the following <a href="https://en.wikipedia.org/wiki/The_Open_Source_Definition#Definition">definition</a>:</p>
+<p><em>Don’t worry, you don’t need to memorise all of this, but it’s good to know the principles that OSS is coming from.</em></p>
+<ul>
+<li><p><strong>Free Redistribution</strong>: The license shall not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license shall not require a royalty or other fee for such sale.</p></li>
+<li><p><strong>Source Code</strong>: The program must include source code, and must allow distribution in source code as well as compiled form. Where some form of a product is not distributed with source code, there must be a well-publicized means of obtaining the source code for no more than a reasonable reproduction cost preferably, downloading via the Internet without charge. The source code must be the preferred form in which a programmer would modify the program. Deliberately obfuscated source code is not allowed. Intermediate forms such as the output of a preprocessor or translator are not allowed.</p></li>
+<li><p><strong>Derived Works</strong>: The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software.</p></li>
+<li><p><strong>Integrity of The Author’s Source Code</strong>: The license may restrict source-code from being distributed in modified form only if the license allows the distribution of “patch files” with the source code for the purpose of modifying the program at build time. The license must explicitly permit distribution of software built from modified source code. The license may require derived works to carry a different name or version number from the original software.</p></li>
+<li><p><strong>No Discrimination Against Persons or Groups</strong>: The license must not discriminate against any person or group of persons.</p></li>
+<li><p><strong>No Discrimination Against Fields of Endeavour</strong>: The license must not restrict anyone from making use of the program in a specific field of endeavour. For example, it may not restrict the program from being used in a business, or from being used for genetic research.</p></li>
+<li><p><strong>Distribution of License</strong>: The rights attached to the program must apply to all to whom the program is redistributed without the need for execution of an additional license by those parties.</p></li>
+<li><p><strong>License Must Not Be Specific to a Product</strong>: The rights attached to the program must not depend on the program’s being part of a particular software distribution. If the program is extracted from that distribution and used or distributed within the terms of the program’s license, all parties to whom the program is redistributed should have the same rights as those that are granted in conjunction with the original software distribution.</p></li>
+<li><p><strong>License Must Not Restrict Other Software</strong>: The license must not place restrictions on other software that is distributed along with the licensed software. For example, the license must not insist that all other programs distributed on the same medium must be open-source software.</p></li>
+<li><p><strong>License Must Be Technology-Neutral</strong>: No provision of the license may be predicated on any individual technology or style of interface.</p></li>
+</ul>
+<p>Now, this all might be a little complex to remember. However, it can be summarised as <em>making software as re-usable as possible for future works, while also being freely available</em>.</p>
+<p><br/></p>
+</div>
+<div id="an-open-source-checklist" class="section level2">
+<h2><span class="header-section-number">5.5</span> An Open Source checklist</h2>
+<p>There are a number of existing platforms and tools that support OSS and collaboration. The <a href="https://open-science-training-handbook.gitbook.io/book/">Open Science Training Handbook</a> provides a check-list to use for evaluating the ‘openness’ of existing research software, based on the Open Source Definition above:</p>
+<ul>
+<li><p>[ ] Is the software available to download and install?</p></li>
+<li><p>[ ] Can the software easily be installed on different platforms?</p></li>
+<li><p>[ ] Does the software have conditions on the use?</p></li>
+<li><p>[ ] Is the source code available for inspection?</p></li>
+<li><p>[ ] Is the full history of the source code available for inspection through a publicly available version history?</p></li>
+<li><p>[ ] Are the dependencies of the software (hardware and software) described properly? Do these dependencies require only a reasonably minimal amount of effort to obtain and use?</p></li>
+</ul>
+<p>Check, check, check, done! Simples.</p>
+<p><br/></p>
+</div>
+<div id="the-open-source-community-and-its-governance" class="section level2">
+<h2><span class="header-section-number">5.6</span> The Open Source community and its governance <a name="OS_Community"></a></h2>
+<p>There are two main camps within the free software community: The <strong>free software movement</strong>, and the <strong>OSS movement</strong>. Both have differing ideologies based on user liberties and the practical applications of software. Often, the term ‘FLOSS’ is used to reconcile these two political camps, and means ‘Free/Libre and Open Source Software’; Libre being French and Spanish for ‘free’ in the context of freedom.</p>
+<p>The core principle of re-use is what separates OSS from ‘Free Software’. Free and Open Source Software (FOSS) is an inclusive term to describe software that can be classified as both free and Open Source. A good example of FOSS is the <a href="https://www.ubuntu.com/">Ubuntu Linux</a> operation system.</p>
+<p>The big difference between free software and OSS is that the former must distribute updated versions under the same license as the original, whereas newer versions of OSS can be distributed under different licenses. FOSS combines the best of both worlds.</p>
+<p>These definitions have now become widely adopted, both by international governments, as well as some large organisations such as the <a href="https://www.mozilla.org/en-US/foundation/">Mozilla Foundation</a> and the <a href="https://wikimediafoundation.org/wiki/Home">Wikimedia Foundation</a>. Major organisations in the FLOSS space include the UK’s <a href="https://www.software.ac.uk/">Software Sustainability Institute</a>, who produce valuable resources such as their recent <a href="https://softwaresaved.github.io/software-deposit-guidance/">Software Deposit Guidance for Researchers</a>.</p>
+<div id="for-individual-projects" class="section level3">
+<h3><span class="header-section-number">5.6.1</span> For individual projects</h3>
+<p>A typical open source project has the following types of formal roles:</p>
+<ul>
+<li><strong>Author</strong>: It is the person that created the project</li>
+<li><strong>Owner</strong>: The person/s who has administrative ownership over the organization or repository</li>
+<li><strong>Maintainers</strong>: Contributors who are responsible for driving the vision and managing the organizational aspects of the project. (They may also be authors or owners of the project.)</li>
+<li><strong>Contributors</strong>: The user that has already contributed to the project.</li>
+<li><strong>Community Members</strong>: People who use the project. They might be active in conversations, create new issues or express their opinion on the future project improvements.</li>
+</ul>
+<p>Typically, roles are made public through either the <code>README</code> file, a Contributors file, or a separate team page for the project.</p>
+<p><br/></p>
+</div>
+</div>
+<div id="existing-platforms-and-tools-for-open-source-software" class="section level2">
+<h2><span class="header-section-number">5.7</span> Existing platforms and tools for Open Source Software <a name="Platforms"></a></h2>
+<p>Virtual environments and machines are becoming increasingly popular as high-powered research workflow enablers, and many of these are built upon OSS (e.g., operating systems, programming languages, and data processing frameworks). Popular services include <a href="https://cloud.google.com/compute/">Google Cloud</a> and <a href="https://aws.amazon.com/">Amazon Web Services</a>, which also assist with database storage and content delivery, as well as computational power. <a href="https://insidedna.me/">InsideDNA</a> is a computing platform for reproducible research in bioinformatics, genomics and the life sciences.</p>
+<p>As mentioned <a href="#What_OSS">above</a>, LibreOffice provides an Open Source alternative to Microsoft Office. The two are almost completely compatible, just with different default file formats. For citation managers, <a href="https://www.zotero.org/">Zotero</a> is the most popular Open Source alternative to proprietary platforms such as Mendeley or EndNote.</p>
+<p><a href="https://www.zotero.org/">Zotero</a> uses the BibTeX (pronounced ‘bib-tech’) format, based on LaTeX (pronounced ‘lay-tech’), and has browser plugins to make citation management simple. By integrating this with other software such as LibreOffice, it is now possible to have a fully Open Source research workflow in many cases.</p>
+<div id="github" class="section level3">
+<h3><span class="header-section-number">5.7.1</span> GitHub <a name="GitHub"></a></h3>
+<blockquote>
+<p>Did you know that this entire project was build as an open and collaborative community effort in <a href="https://github.com/OpenScienceMOOC/">GitHub</a>?</p>
+</blockquote>
+<p><a href="https://github.com/">GitHub</a> is a popular hosting site for both software and non-software content (often called ‘notebooks’), with added capabilities for version control, project management and tracking, and storage services. GitHub is built on top of the OSS <a href="https://git-scm.com/">Git</a>, which enables users to work remotely to maintain, share, and collaborate on research software and other non-software based projects.</p>
+<p>Version control is essentially a process that takes snapshots of the files in a repository, and tracks modifications to them. It records when the changes were made, what they were, and who did them. If several people are working on one file at once, any overlapping changes are detected, and must be resolved prior to continuing. This provides a much more streamlined and automated process than manually saving and recording changes as projects develop. It also avoids the inevitable lists of confusing named file versions…</p>
+<p align="center">
+<img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/xkcd.png?raw=true" width="200" />
+</p>
+<p align="center">
+<i>GitHub helps us to avoid, er, sub-optimal file naming conventions (source: XKCD)</i>
+</p>
+<p><br/></p>
+<p>One of the more popular and useful functions of GitHub is the <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/issues">issue tracker</a>, which is used to organise OSS development. The above link takes you to the issue tracker for the development of this module! If you think there is something here that can improved, or you want to comment on, anyone can add or contribute to an issue there!</p>
+<p>Other similar project hosting services include <a href="https://bitbucket.org/">BitBucket</a>, <a href="https://about.gitlab.com/">GitLab</a>, and <a href="https://launchpad.net/">Launchpad</a>. If the recent acquisition of GitHub by Microsoft is a bit off-putting to you, these are great alternatives.</p>
+<p>However, we also know that GitHub can have quite a high learning curve. Which is why the first practical task for this MOOC will teach you how to set up your first GitHub project repository!</p>
+<p><strong><a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md">GO TO TASK 1: Building your first GitHub repository</a></strong></p>
+<p><br/></p>
+</div>
+</div>
+<div id="open-source-software-used-in-research" class="section level2">
+<h2><span class="header-section-number">5.8</span> Open Source Software used in research <a name="Research"></a></h2>
+<p>Especially in scientific research, Open Source Software usage and development has become practically the norm. There’s a number of reasons for this beyond those that apply to the general acceptance of OSS by, for example, consumers, industry, or government. Among these reasons are:</p>
+<ul>
+<li><p>Increasingly, algorithms implemented in analysis software form an integral part of the methods described in scholarly publications. As such, it is completely at odds with rigorous peer review if these algorithm implementations are closed to outsiders.</p></li>
+<li><p>Scientific collaboration more often than not spans multiple institutions and distributed research networks where secrecy and command hierarchy is not maintained in a way that is ‘necessary’ for closed source development.</p></li>
+<li><p>Many computational analyses are run in virtualized environments (such as institutional, national, or international ‘cloud’ infrastructures) and hosted on multi-user servers. Closed-source, commercial software often disallows such usage.</p></li>
+<li><p>OSS development often relies on volunteers. In a time of budgetary constraints for scientific research, this is a clear advantage.</p></li>
+</ul>
+<p>For these and other reasons, Open Source tools are very commonly used in scientific research. This includes usage in fields where many researchers are amateur developers themselves and rely on tools such as <a href="https://www.r-project.org/">R</a> for statistical analysis and scripting, which, in the last decade, has almost completely displaced commercial software for statistical analysis such as SPSS or JMP in a lot of fields. In fields such as bioinformatics, that involve a lot of file handling of the outputs of DNA sequencing platforms, general purpose scripting languages such as <a href="https://www.python.org/">Python</a> and commonly used libraries built on top of it (such as <a href="http://biopython.org">biopython</a>) have become a vital part of the toolkit of many researchers.</p>
+<p align="center">
+<img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/python.png?raw=true" width="400" />
+</p>
+<p align="center">
+<i>Python</i>
+</p>
+<p><br/></p>
+<p>Tools such as R and Python are essentially software for writing software. Although programming is an increasingly common activity among researchers, of course not <em>every</em> scientist does this. One step away from programming is the chaining together of the inputs and outputs of various analysis tools in longer workflows. As an example from genomics, a very common workflow is to start out with high-throughput sequencing reads and then i) do basic quality control checks; ii) map the reads against a reference genome; iii) identify the points where the new data are at variance with the reference. These steps are routinely executed as a workflow where a different Open Source executable is run in a Linux command-line environment for each of the three steps. Although this is arguably not quite open source software development, it does involve the usage and production of open source artifacts (such as Linux shell scripts) for which the principles that we discuss in this module are applicable.</p>
+<p align="center">
+<img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/r.png?raw=true" width="200" />
+</p>
+<p align="center">
+<i>R</i>
+</p>
+<p><br/></p>
+<p>Lastly, OSS is also used in scientific research for reasons that more closely mirror those that drive the adoption of OSS in wider society, namely that it is cheap. For example, individuals or organizations might decide to switch from Microsoft Office to LibreOffice for manuscript writing or spreadsheet processing because the latter is free (both as in <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><strong>‘free beer’</strong></a> and ‘free speech’). Likewise, the choice to switch from ArcGIS to <a href="https://www.qgis.org/en/site/">QGIS</a> for the analysis of geographic information might be prompted simply by cost considerations.
+<br/></p>
+</div>
+<div id="getting-started-with-oss---faq" class="section level2">
+<h2><span class="header-section-number">5.9</span> Getting Started with OSS - FAQ <a name="FAQ"></a></h2>
+<p><strong>I’m using X[e.g. Matlab,STATA,Excel] and I want to transition to something more open. What are the next steps?</strong></p>
+<p>Even if you are using proprietary software, you can usually still share your source code/documents etc. <em>The best first step is sharing whatever you can</em>.</p>
+<p><strong>Great! I can put them in my new github repo.</strong></p>
+<p>If that’s enough for you for now great! If not for most pieces of proprietary software there are Open Source equivalents. Have a go with one and see what you think.</p>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Closed</th>
+<th>Open</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Matlab</td>
+<td>Python, Julia</td>
+</tr>
+<tr class="even">
+<td>STATA/SPSS</td>
+<td>R</td>
+</tr>
+<tr class="odd">
+<td>MS Office</td>
+<td>LibreOffice</td>
+</tr>
+<tr class="even">
+<td>Mathematica</td>
+<td>JupyterLab</td>
+</tr>
+<tr class="odd">
+<td>Test out your new <a href="https://help.github.com/articles/about-pull-requests/">Pull Request -PR-</a> Skills …</td>
+<td>… by adding your own example <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md">here</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Cool! But if I make the switch will I be stuck: taking ages to learn a new tool/ without support /with buggy software.</strong></p>
+<p>Good question! The answer is it depends. The best thing to do is find someone who’s made the switch before and learn from their experience. Or just do a Google search! Some OSS is much better than their closed counterparts, some aren’t, so it’s worth choosing carefully.</p>
+</div>
+<div id="making-good-software-for-re-use" class="section level2">
+<h2><span class="header-section-number">5.10</span> Making good software for re-use <a name="Reuse"></a></h2>
+<p>The most likely person who might want to re-use your software in the future is…you! So while sharing is always better than not sharing, you can make your own life, and that of others, much easier through appropriate documentation. Documentation can include several things, such as including helpful comments and annotations in the code that help to explain why a particular action was performed, rather than what it is intended to achieve.</p>
+<p>One of the most critical aspects of this is including an informative <code>README</code> file, that accompanies almost every OSS project, and some times even more than one. It can be a good practice to include one such file in every directory, that includes a list of files, a table of contents, and what the purpose of the directory is. The <code>README</code> file is typically just plain text or markdown (again, such as all of the ones for the MOOC!), and can include critical information for how to install and run software, previous dependencies and requirements, as well as tutorials or examples.</p>
+<blockquote>
+<p><strong>Did you know…</strong> The term <code>README</code> is some times playfully ascribed to the famous scene in Lewis Carroll’s Alice’s Adventures In Wonderland in which Alice confronts magic munchies labeled with “Eat Me”&quot; and “Drink Me”. Potent.</p>
+</blockquote>
+<p>The purpose here is to provide sufficient information to maximise the re-use and reproducibility of the computational environment, such that someone with no experience with the project can easily access and re-use the software (<a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF">Sandve et al., 2013</a>). By lowering the barriers to entry, you increase the chances of others being able to re-use your work, which is one of the ultimate goals of OSS (<a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Ince%20et%20al.%2C%202012.pdf">Ince et al., 2012</a>).</p>
+<p>An extension of this that can help to make things even easier for future re-use is ‘container’ technology. Containers are like an ecosystem frozen in time, where the code, the data, any other dependencies, are all perfectly preserved, packaged and saved in the present functioning versions. This means that anyone in the future any one can come in and run the analyses again. As such, they are generally good for re-use, but this can come at the sacrifice of modification or understanding by others, as often a lot of details can be hidden within the source code and its dependencies. Common examples of container implementation in research include <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Boettiger%20and%20Eddelbuettel%2C%202017.pdf">Rocker</a> (a Docker container for the R language), <a href="https://mybinder.readthedocs.io/en/latest/">Binder</a>, and <a href="https://codeocean.com/">Code Ocean</a>.</p>
+<p><strong>Sustainable software is good software.</strong></p>
+<p><br/></p>
+</div>
+<div id="simple-rules-for-reproducible-computational-research" class="section level2">
+<h2><span class="header-section-number">5.11</span> 10 simple rules for reproducible computational research</h2>
+<p>The 10 simple rules for making computational research more reproducible, based on <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF">Sandve et al., (2013)</a>, are:</p>
+<ol style="list-style-type: decimal">
+<li>For every result, keep track of how it was produced.</li>
+<li>Avoid manual data manipulation steps.</li>
+<li>Archive the exact versions of all external programs used.</li>
+<li>Version control all custom scripts.</li>
+<li>Record all intermediate results, when possible in standardised formats.</li>
+<li>For analyses that include randomness, note underlying random seeds.</li>
+<li>Always store raw data behind plots.</li>
+<li>Generate hierarchical analysis output, allowing layers of increasing detail to be inspected.</li>
+<li>Connect textual statements to underlying results.</li>
+<li>Provide public access to scripts, runs, and results.</li>
+</ol>
+<p align="center">
+<img src="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/images/simple_rules.png?raw=true" width="800" />
+</p>
+<p align="center">
+<i>Infographic adapted from Sandve et al., (2013). Feel free to download this and print it out to keep handy during your research!</i>
+</p>
+<p><br/></p>
+<p>If you follow these steps, along with the processes in <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md"><strong>Task 1</strong></a> and <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md"><strong>Task 2</strong></a>, you should be fine!</p>
+<p><br/></p>
+</div>
+<div id="open-source-licensing" class="section level2">
+<h2><span class="header-section-number">5.12</span> Open Source licensing <a name="Licensing"></a></h2>
+<p>An Open Source license is a type of license designed specifically for software and code that make it explicit what the legal conditions for sharing and re-use are. As mentioned <a href="#What_OSS">above</a>, the addition of a suitable license is what differentiates publicly shared software from OSS. For example, the widely used <a href="https://www.mathworks.com/products/matlab.html">MATLAB</a> is proprietary software, and <a href="https://www.gnu.org/software/octave/">Octave</a> is an openly licensed alternative programming language.</p>
+<p>There are currently more than 1,400 unique Open Source licenses, a complexity born from the difficulty in understanding the differences between the legal implications across different license.</p>
+<p>Some of the more common licenses include:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/BSD_licenses">Berkeley Software Distribution (“BSD”)</a>,</li>
+<li><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache</a>,</li>
+<li><a href="https://opensource.org/licenses/MIT">MIT-style (Massachusetts Institute of Technology)</a>, or</li>
+<li><a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License (“GPL”)</a>.</li>
+</ul>
+<p>You don’t need to know all the legal itty gritty behind all of these, but it is good to at least know what options are avaiilable to you.</p>
+<p>There are two ways in which contributions to a project become licensed:</p>
+<ol style="list-style-type: decimal">
+<li><em>Explicitly</em>, whereby the individual contribution has a clearly indicated license independent of the main project; or</li>
+<li><em>Implicitly</em>, whereby the contribution falls under the original licensing code of the main project.</li>
+</ol>
+<p>Thankfully, the process of selecting an Open Source license is relatively trivial, thanks to user-friendly tools such as <a href="https://choosealicense.com/">Choose A License</a>. Each of these licenses allows other users to use, copy, distribute, and build upon your work, often while ensuring that the creators are appropriately recognised for their work. Here, the key is selecting an appropriate license for your work, depending on what you want, or do not want, others to do with it.</p>
+<p><br/></p>
+</div>
+<div id="software-citation" class="section level2">
+<h2><span class="header-section-number">5.13</span> Software citation <a name="Citation"></a></h2>
+<p>Citations provide one of the most important interactions in scholarly research, forming the basis of our referencing and metrics systems. Typically, this is performed thanks to the assistance of a permanent unique identifier such as a <a href="https://en.wikipedia.org/wiki/Digital_object_identifier">Digital Object Identifiers</a> (DOI). A DOI is a persistent identifier, implemented in the <a href="https://en.wikipedia.org/wiki/Handle_System">Handle System</a>, that meets a common standard, depending on the purpose, such as for identifying academic information. Such identification is critical for tracking the genealogy and provenance of research, for reproducibility, as well as for giving appropriate credit to those who have created the software. Importantly, software should be considered a legitimate output from scholarly research, and citation is becoming an increasingly common way to indicate that.</p>
+<p>In 2016, <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf">Smith et al., 2016</a> wrote a research paper about the principles of software citation as part of the FORCE11 Software Citation Working Group. In the same way that you would want to cite software that you have used as part of good research practices, it is important to make your research easily citable too. When citing any software used for your own research, you should include at minimum:</p>
+<ul>
+<li>The author name(s),</li>
+<li>Software title,</li>
+<li>Version number, and</li>
+<li>The unique identifier/locator (DOI or URL).</li>
+</ul>
+<p>The six principles of software citation by <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf">Smith et al., (2016)</a> are provided here:</p>
+<ul>
+<li><p><strong>Importance</strong>: Software should be considered a legitimate and citable product of research. Software citations should be accorded the same importance in the scholarly record as citations of other research products, such as publications and data; they should be included in the metadata of the citing work, for example in the reference list of a journal article, and should not be omitted or separated. Software should be cited on the same basis as any other research product such as a paper or a book, that is, authors should cite the appropriate set of software products just as they cite the appropriate set of papers.</p></li>
+<li><p><strong>Credit and attribution</strong>: Software citations should facilitate giving scholarly credit and normative, legal attribution to all contributors to the software, recognizing that a single style or mechanism of attribution may not be applicable to all software.</p></li>
+<li><p><strong>Unique identification</strong>: A software citation should include a method for identification that is machine actionable, globally unique, interoperable, and recognized by at least a community of the corresponding domain experts, and preferably by general public researchers.</p></li>
+<li><p><strong>Persistence</strong>: Unique identifiers and metadata describing the software and its disposition should persist - even beyond the lifespan of the software they describe.</p></li>
+<li><p><strong>Accessibility</strong>: Software citations should facilitate access to the software itself and to its associated metadata, documentation, data, and other materials necessary for both humans and machines to make informed use of the referenced software.</p></li>
+<li><p><strong>Specificity</strong>: Software citations should facilitate identification of, and access to, the specific version of software that was used. Software identification should be as specific as necessary, such as using version numbers, revision numbers, or variants such as platforms.</p></li>
+</ul>
+<p>Note: For instructions on ‘how to make your software citable’ see the section <a href="#GitHub_Zenodo"><strong>Using GitHub and Zenodo</strong></a> below and <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md"><strong>Task 2: Linking GitHub and Zenodo</strong></a>.</p>
+<p><br/></p>
+</div>
+<div id="using-github-and-zenodo" class="section level2">
+<h2><span class="header-section-number">5.14</span> Using GitHub and Zenodo <a name="GitHub_Zenodo"></a></h2>
+<p><a href="#GitHub">GitHub</a> is a popular tool for project management, content storage, and version control. Note that GitHub itself is not OSS. However, Git, the tool which it is based on, is. Git is designed to help manage the source code files, and the updates to them, for a software-related project. However, it can also be extended to other non-software projects; for example, this <a href="https://github.com/OpenScienceMOOC/">MOOC</a>!</p>
+<p>However, getting research onto GitHub is just the first step. It is equally important to make it persistent and re-usable, which is why having a Digital Object Identifier (DOI) associated with it can be useful. The simplest way to do this is through a service called <a href="https://zenodo.org/">Zenodo</a>, which is a free and open source multi-disciplinary repository created by OpenAIRE and CERN, and can be used to assign a DOI to individual GitHub repositories. There is a <a href="https://guides.github.com/activities/citable-code/">GitHub Guide</a> that explains the details, which involve linking GitHub repositories directly through to Zenodo so that when developers create formal releases for their software, Zenodo creates and archives a that version of the software.</p>
+<p>There’s nothing special about using Zenodo for creating DOIs, other than its <strong>free of cost</strong>; other general repositories can also be used, such as <a href="https://doi.datacite.org/">DataCite DOI Fabrica</a>, or your own institutional repositories such as <a href="https://www.library.caltech.edu/news/enhanced-software-preservation-now-available-caltechdata">Caltech’s</a>.</p>
+<p>A lot of researchers might typically be afraid of sharing code which is incomplete, buggy, or imperfect. However, in the OSS community, such a practice of sharing ‘raw’ code is fairly commonplace. Sharing code openly enables others to re-use and improve it, as well as to engage in a deeper way with any research associated with it. This is one of the fundamental aspects of peer-collaboration, perhaps best exemplified by the traditional process of research manuscript peer review.</p>
+<p>Task 2 will guide you through the process of linking a GitHub repository to Zenodo for archiving.</p>
+<blockquote>
+<p><strong>Did you know…</strong> All content produced for this MOOC is available as part of a community in <a href="https://zenodo.org/communities/open-science-mooc/">Zenodo</a>?</p>
+</blockquote>
+<p><strong><a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md">GO TO TASK 2: Linking GitHub and Zenodo</a></strong></p>
+<p><br/></p>
+</div>
+<div id="collaborating-and-contributing-through-open-source" class="section level2">
+<h2><span class="header-section-number">5.15</span> Collaborating and contributing through Open Source <a name="Collaborating"></a></h2>
+<p>Often, OSS is developed in a public, decentralised, collaborative manner between multiple contributors. The purpose of this is to enhance the diversity and scope of a project and its design, in order to become more beneficial and sustainable. Such an approach was famously likened to a ‘bazaar’ model by Eric Raymond, an early OSS proponent. One of the major guiding principles of this is that of <strong>peer production</strong>, which relies on self-organised communities to regulate the development of content, co-ordinated towards a shared goal or outcome.</p>
+<p>OSS projects rely heavily on volunteer collaboration, which often entails a constant flux of newcomers in order to become productive and sustainable (<a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf">Steinmacher et al., 2014</a>). Creating the right social atmosphere for a project, and a welcoming engagement environment, are often critical to successful collaboraitons in OSS.</p>
+<p><br/></p>
+</div>
+<div id="where-to-go-from-here" class="section level2">
+<h2><span class="header-section-number">5.16</span> Where to go from here <a name="Future_OSS"></a></h2>
+<p>Hopefully now you have come to see the importance of software as a cornerstone of modern science, and the importance that OSS plays in this.</p>
+<p>The <strong>learning outcomes</strong> from this should be:</p>
+<ol style="list-style-type: decimal">
+<li><p>You will now be able to define the characteristics of OSS, and some of the ethical, legal, economic and research impact arguments for and against it.</p></li>
+<li><p>Based on community standards, you will now be able to describe the quality requirements of sharing and re-using open code.</p></li>
+<li><p>You will now be able to use a range of research tools that utilise OSS.</p></li>
+<li><p>You will now be able to transform code designed for their personal use into code that is accessible and re-usable by others.</p></li>
+<li><p>Software developers will be able to make their software citable, and software users will know how to cite the software they use.</p></li>
+</ol>
+<p><br/></p>
+<p><strong>BONUS TASK</strong></p>
+<p>If you have completed <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md">Task 1</a> and <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md">Task 2</a>, we also have a <strong>BONUS TASK</strong> for you, if you want to take your skills a step further. <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_3.md">Task 3</a> will take you a step deeper into integrating Git into a typical research workflow by showing you how to integrate it with R Studio. It is recommended that you have completed the first 2 tasks before proceeding with this one.</p>
+<p>However, your Open Source journey does not stop here! This was just the beginning, and there are some incredible resources out there if you would like to do or learn more:</p>
+<ul>
+<li><p>If you feel particularly inspired by this, you can endorse the <a href="http://sciencecodemanifesto.org/">Science Code Manifesto</a>, which is based on the five principles of code, copyright, citation, credit, and curation.</p></li>
+<li><p>To launch and develop your own project, the <a href="https://opensource.guide/">Open Source Guides</a> program offers a range of practical guides and skills to help launch and advance your OSS projects.</p></li>
+<li><p>For a detailed look at OSS-based research workflows, the <a href="https://pfern.github.io/OSODOS/gitbook/">Open Science, Open Data, Open Source</a> hand-guide by Pedro L. Fernandes and Rutger A. Vos is one of the top resources online.</p></li>
+<li><p>More formalised journal venues also exist for software-based articles, including <a href="https://openresearchsoftware.metajnl.com/">The Journal of Open Research Software</a> and <a href="https://joss.theoj.org/">The Journal of Open Source Software</a>. A list of such venues is also <a href="https://www.software.ac.uk/which-journals-should-i-publish-my-software">available</a>.</p></li>
+<li><p>The <a href="https://channels.plos.org/open-source-toolkit">PLOS Open Source Toolkit</a> provides a global forum for Open Source hardware and software research and applications.</p></li>
+<li><p>The <a href="http://www.numfocus.org">NumFOCUS</a> is a nonprofit organization that supports and promotes world-class, innovative, open source scientific software. Some of the projects they sponsor include:</p>
+<ul>
+<li><p><a href="http://ipython.org">IPython</a> and <a href="https://jupyter.org">Jupyter Notebook</a> initiatives.</p></li>
+<li><p><a href="http://ropensci.org">rOpenSci</a>, which promotes the open source R statistical environment for transparent and reproducible research.</p></li>
+<li><p>To gain more hands on experience with OSS, the <a href="https://software-carpentry.org/">Software Carpentry</a> community holds regular workshops to improve lab-based computing skills (<a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Wilson%20et%20al.%2C%202017.pdf">Wilson et al., 2017</a>).</p></li>
+</ul></li>
+</ul>
+<p><br/></p>
+<div id="further-reading" class="section level3">
+<h3><span class="header-section-number">5.16.1</span> Further reading <a name="Reading"></a></h3>
+<p><em>These references here are just the beginning. They include some of the most useful general overviews of the Open Source landscape in research. However, if you want to be find something more specific to your own research field, then that path is there for you to explore!</em></p>
+<ul>
+<li><p>The Future of Research in Free/Open Source Software Development <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Scacchi%2C%202010.pdf">(Scacchi, 2010)</a>.</p></li>
+<li><p>The Scientific Method in Practice: Reproducibility in the Computational Sciences <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Stodden%2C%202010.pdf">(Stodden, 2010)</a>.</p></li>
+<li><p>The case for open computer programs <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Ince%20et%20al.%2C%202012.pdf">(Ince et al., 2012)</a>.</p></li>
+<li><p>Current issues and research trends on open-source software communities <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Martinez-Torres%20and%20Diaz-Fernandez%2C%202013.pdf">(Martinez-Torres and Diaz-Fernandez, 2013)</a>.</p></li>
+<li><p>Ten simple rules for reproducible computational research <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF">(Sandve et al., 2013)</a>.</p></li>
+<li><p>A systematic literature review on the barriers faced by newcomers to open source software projects <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Steinmacher%20et%20al.%2C%202014.pdf">(Steinmacher et al., 2014)</a>.</p></li>
+<li><p>Knowledge sharing in open source software communities: motivations and management <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Iskoujina%20and%20Roberts%2C%202015.pdf">(Iskoujina and Roberts, 2015)</a>.</p></li>
+<li><p>Software citation principles <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Smith%20et%20al.%2C%202016.pdf">(Smith et al., 2016)</a>.</p></li>
+<li><p>An introduction to Rocker: Docker containers for R <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Boettiger%20and%20Eddelbuettel%2C%202017.pdf">(Boettiger and Eddelbuettel, 2017)</a>.</p></li>
+<li><p>Good enough practices in scientific computing <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Wilson%20et%20al.%2C%202017.pdf">(Wilson et al., 2017)</a>.</p></li>
+<li><p>Four simple recommendations to encourage best practices in research software <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Jim%C3%A9nez%20et%20al.%2C%202018.pdf">(Jiménez et al., 2017)</a>.</p></li>
+</ul>
+<p><br/></p>
+</div>
+<div id="development-team" class="section level3">
+<h3><span class="header-section-number">5.16.2</span> Development Team <a name="Development_team"></a></h3>
+<ul>
+<li><a href="https://twitter.com/alex__morley">Alex Morley</a>, Open Sourceror, University of Oxford, UK.</li>
+<li><a href="https://twitter.com/KMMoerman">Kevin Moerman</a>, Open Sourceror, MIT, USA.</li>
+<li><a href="https://twitter.com/ixek">Tania Allard</a>, Open Sourceress, Data Enchantress, University of Leeds, UK.</li>
+<li><a href="https://twitter.com/mrchristian99">Simon Worthington</a>, Book Liberationist, TIB, Germany.</li>
+<li><a href="https://twitter.com/pcmasuzzo">Paola Masuzzo</a>, Open Source Batman, Italy.</li>
+<li><a href="https://twitter.com/OAforClimate">Ivo Grigorov</a>, Open Source Robin, Denmark.</li>
+<li><a href="https://twitter.com/rvosa">Rutger Vos</a>, Open Sourceror, Naturalis Biodiversity Center, the Netherlands.</li>
+<li><a href="https://twitter.com/j_colomb">Julien Colomb</a>, Open Ninja, Berlin.</li>
+<li><a href="https://twitter.com/protohedgehog">Jon Tennant</a>, Dinosaur Whisperer.</li>
+</ul>
+<p><strong>Know a way this content can be improved?</strong></p>
+<p>Time to take your new GitHub skills for a test-run! All content development primarily happens <a href="https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md">here</a>. If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!</p>
+<p><a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg" alt="CC0 Public Domain Dedication" /></a></p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="module4.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="module6.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/05-Open_research_and_open_source.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
