@@ -1,5 +1,5 @@
-book_filename: "bookdown-demo"
+book_filename: "OpenScienceMooc-book"
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "Module "
 delete_merged_file: true
