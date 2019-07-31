@@ -5,12 +5,7 @@ pandoc_version: 1.19.2.1
 r_packages:
   - bookdown
 
-before_script:
-  - chmod +x ./_build.sh
-
-
 script:
-  - ./_build.sh
   - mkdir docs/
   - cp -r _book/ docs/
 
