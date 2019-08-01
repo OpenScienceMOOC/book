@@ -1,6 +1,6 @@
 --- 
 title: "Open Science MOOC Book"
-author: "Samuel Guay on behalf of the Open Science MOOC Team"
+author: "Open Science MOOC Team"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
