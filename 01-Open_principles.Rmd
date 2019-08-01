@@ -51,7 +51,7 @@ You, yes you, are in the middle of a profound global scientific revolution. To i
 
 This module will introduce to you the guiding principles, values, and practices of 'Open Science', some of the potential barriers to these, and the positive impact that integrating openness into your daily research work can have on you. This module is not designed to be a 'one size fits all' approach, but rather a foundational plan that incorporates questions around the varying and dynamic dimensions, interpretations, and goals of Open Science across different communities.
 
-<p align="center"><img src="https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/02_expectations.png?raw=true" width="400"?raw=true></p>
+<p align="center"><img src="images/02_expectations.png" width="400"></p>
 
 <p align="center">Image license: CC0 1.0 Universal; Patrick Hochstenbach <a href="https://twitter.com/hochstenbach" target=""
 
@@ -71,7 +71,7 @@ Therefore, irrespective of your background **you are very much welcome here**.
 
 <br/>
 
-<center><img src="https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/open_science.png?raw=true" width="800" /></center>
+<center><img src="images/open_science.png" width="800" /></center>
 
 <p align="center"><i>Melanie Imming, & Jon Tennant. (2018, June 8). Sticker Open Science: just science done right. Zenodo. <a href="https://zenodo.org/record/1285575#.XDebSM17lPY">https://zenodo.org/record/1285575#.XDebSM17lPY</a></i></p>
 
@@ -151,7 +151,7 @@ The foundational elements of traditional research communication, peer-reviewed r
 
 Perhaps one of the most important aspect of the Open Science movement in recent years has been the drive behind the liberation of research papers from behind paywalls to be freely available to anyone; also known as Open Access. This has largely been based on the principle that humans deserve to have access to scientific knowledge, and benefit from that.
 
-<center><img src="https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/OA.jpg?raw=true" width="800" /></center>
+<center><img src="images/OA.jpg" width="800" /></center>
 
 <p align="center"><i>Number of articles (A) and proportion of articles (B) with OA copies, estimated based on a random sample of 100,000 articles with Crossref DOIs. <a href="https://peerj.com/articles/4375/#fig-2">Piwowar et al. (2018)</a></i></p>
 
@@ -169,7 +169,7 @@ Open Science gives rise to a new set of standards, tools, principles, and practi
 
 For example, the United Nations has recently set a number of critical Sustainable Development Goals.
 
-<center><img src="https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/UN.png?raw=true" width="800" /></center>
+<center><img src="images/UN.png" width="800" /></center>
 
 <p align="center"><i><a href="https://sustainabledevelopment.un.org/sdgs">UN Sustainable Development Goals</a></i></p>
 
@@ -187,7 +187,7 @@ The commitment to opening science to help make it more transparent and accessibl
 
 The earliest form of Open Science can perhaps trace its origins back the 17th century, and the origins of the academic journal, such as the [Philosophical Transactions of the Royal Society](https://en.wikipedia.org/wiki/Philosophical_Transactions_of_the_Royal_Society). *Transactions* collected and disseminated a broad range of observations and experiment descriptions and spread the work of the Invisible College, the informal gathering of natural philosophers at Oxford and elsewhere. Publication of scientific "news" was also catalysed by an increasing demand for the wider dissemination of scientific knowledge with the wider public. However, the origins can probably go back even further to the very birth of scholarly practices. Much of what we know about our world and universe has foundations in fundamental openness, from evolution and the origin of species, through to gravity and the origins of stars.
 
-<center><img src="https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/open_culture.png?raw=true" width="800" /></center>
+<center><img src="images/open_culture.png" width="800" /></center>
 
 <p align="center"><i><a>The intersections of Open Science and Open Culture, by Katja Mayer (CC BY)</a></i></p>
 
@@ -269,14 +269,14 @@ Of note here is that much of what we are discussing here has only recently becom
 
 Now, there are no rules about Open Science, and no one individual or organisation is setting the agenda. However, what is commonly recognised is that Open Science is underpinned by specific, core principles and values. In recognition of this, there are now around [100 charters and declarations](https://docs.google.com/spreadsheets/d/1-aRXFiRg-VL9hpLpxoJqX6-OC-A0R2oCogHfIx52Nug/edit#gid=956616118) to do with data sharing and scholarly communication and publishing, and hundreds more [advocacy organisations](http://oad.simmons.edu/oadwiki/Advocacy_organizations_for_OA) that make openness a significant part of their mission.
 
-<center><img src="https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/principles.png?raw=true" width="800" /></center>
+<center><img src="images/principles.png" width="800" /></center>
 
 <p align="center"><i>Principles of Open Scholarship, by Tony Ross-Hellauer (2017; CC BY). <a href="https://www.slideshare.net/OpenAIRE_eu/peer-review-in-the-age-of-open-science"></a></i></p>
 
 Note that often you will find things described as Open Science, but that do not seem to embrace these principles. These things are probably not 'true' Open Science, but more just attempting to surf the wave or join the bandwagon as a PR stunt. The opposite is also true, that many researchers might practice 'openness', but simply choose not to refer to it as this (or are unaware of the relationship).
 
 [![Open & Collaborative Science Manifesto
-](https://img.youtube.com/vi/Y1X0xtB_JcY/0.jpg)](https://www.youtube.com/watch?v=Y1X0xtB_JcY)
+](](images/0.jpg)](https://www.youtube.com/watch?v=Y1X0xtB_JcY))](https://www.youtube.com/watch?v=Y1X0xtB_JcY)
 
 <p align="center"><i>Open and Collaborative Science Manifesto. This video describes the 7 principles that constitute a more open and inclusive science in development. CC BY <a href="https://www.youtube.com/watch?time_continue=3&v=Y1X0xtB_JcY" >Source</a></i></p>
 
@@ -298,7 +298,7 @@ This above video from [OCSDNet](https://ocsdnet.org/manifesto/open-science-manif
 
 * **Principle 7**: It strives to use knowledge as a pathway to sustainable development, equipping every individual to improve the well-being of our society and planet.
 
-<center><img src="https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/ocsdnet_principles.png?raw=true" width="800" /></center>
+<center><img src="images/ocsdnet_principles.png/></center>
 
 <p align="center"><i>OCSDNet principles for Open and Collaborative Science.</i></p>
 
@@ -306,7 +306,7 @@ This above video from [OCSDNet](https://ocsdnet.org/manifesto/open-science-manif
 
 Another widely-known vision for the future of open scholarly communication is the [Vienna Principles](https://viennaprinciples.org/). Please feel free to share, re-use, or print these handy little infographics as you wish! Finally, another set of principles worth mentioning here are the [Scholarly Commons](https://osf.io/6c2xt/).
 
-<center><img src="https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/vienna_principles.png?raw=true" width="800" /></center>
+<center><img src="images/vienna_principles.png" width="800" /></center>
 
 
 <p align="center"><i>The Vienna Principles, now in handy infographic form!</i></p>
@@ -317,7 +317,7 @@ Another widely-known vision for the future of open scholarly communication is th
 
 Open Science, just like 'regular science', is a complicated construct. Thankfully, a lot of great work has already been performed to help frame the different contexts of Open Science. One of the most commonly used is the Open Science taxonomy from FOSTER, shown below:
 
-![FOSTER Open Science taxonomy](https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/os_taxonomy.png?raw=true)
+![FOSTER Open Science taxonomy](images/os_taxonomy.png)
 
 <p align="center"><i><a href="https://www.fosteropenscience.eu/about#download" >FOSTER Open Science taxonomy</a></i></p>
 
@@ -337,7 +337,7 @@ The different aspects of this will be explored throughout different modules in t
 
 Other critical aspects of Open Science include **Public Engagement with Science**, **Open Educational Resources**, and **Open Advocacy** - all of which will be covered in later modules!
 
-<center><img src="https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/moocpng.png?raw=true" width="800" /></center>
+<center><img src="images/moocpng.png" width="800" /></center>
 
 <p align="center"><i>Modules covered throughout this MOOC <a href="https://opensciencemooc.github.io/site/Modules/" ></a></i></p>
 
@@ -369,7 +369,7 @@ The most comprehensive overview of how Open Science impacts you comes from [McKi
 
 <br/>
 
-<center><img src="https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/citation_advantage.jpg?raw=true" width="800" /></center>
+<center><img src="images/citation_advantage.jpg" width="800" /></center>
 
 <p align="center"><i>The relative citation rate (OA: non-OA) in 19 fields of research. This rate is defined as the mean citation rate of OA articles divided by the mean citation rate of non-OA articles. Multiple points for the same discipline indicate different estimates from the same study, or estimates from several studies. (McKiernan et al., 2016) <a href="https://elifesciences.org/articles/16800" ></a></i></p>
 
@@ -386,7 +386,7 @@ The world of research evaluation is slowly changing. The way in researchers and 
 * If you see someone else using impact factors and make no attempt at correction, you connive at statistical illiteracy.
 
 
-<center><img src="https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/impact_factor.jpg?raw=true" width="800" /></center>
+<center><img src="images/impact_factor.jpg" width="800" /></center>
 
 <p align="center"><i>All hail the mighty impact factor! Illustration by John R. McKiernan, CC BY <a href="http://whyopenresearch.org/gallery" ></a></i></p>
 
@@ -416,7 +416,7 @@ Having Open Science as a core value in research departments sends a strong messa
 
 Another thing that researchers like to have in order to carry out their work is funding. Again, open practices are becoming much more widely recognised in the funding application process, and can even help to give researchers an edge, or the ability to qualify for special funds. Such funders include the [Bill and Melinda Gates Foundation, the National Science Foundation (USA), the National Institutes of Health (USA), the European Commission, the Wellcome Trust, and the Shuttleworth Foundation](http://whyopenresearch.org/funding)). (note that the latter partially supported the development of this MOOC!)
 
-<center><img src="https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/roarmap.png?raw=true" width="800" /></center>
+<center><img src="images/roarmap.png" width="800" /></center>
 
 <p align="center"><i>The Registry of Open Access Repository Mandates and Policies (ROARMAP) is a searchable international registry charting the growth of open access mandates and policies adopted by universities, research institutions and research funders that require or request their researchers to provide open access to their peer-reviewed research article output by depositing it in an open access repository. <a href="http://roarmap.eprints.org/" ></a></i></p>
 
@@ -560,7 +560,7 @@ As you might now see, Open Science impacts almost every aspect of your typical r
 
 There are no set rules though. Open Science gives you the freedom to explore processes that work best for you, your research, and the impact that can have on your wider community. Below is just one combination of examples of tools that can make your research workflow more open all the way from an initial grant proposal through to research assessment.
 
-![Rainbow of Open Science Practices](https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/images/rainbow-of-open-science-practices.png?raw=true)
+![Rainbow of Open Science Practices](images/rainbow-of-open-science-practices.png)
 
 <p align="center"><i>Kramer, Bianca, & Bosman, Jeroen. (2018, January). Rainbow of Open Science practices. Zenodo. <a href="http://doi.org/10.5281/zenodo.1147025" >http://doi.org/10.5281/zenodo.1147025</a></i></p>
 
@@ -575,7 +575,7 @@ Throughout the rest of this [MOOC](https://opensciencemooc.eu/), you will meet m
 Hopefully now you have come to see the importance of Open Science as a fundamental part of modern research. Open Science is an umbrella term for a range of ideals, values, practices, and principles, all of which are integrated together:
 
 [![Intersections of Openness
-](https://img.youtube.com/vi/Es7qvO_2kSg/0.jpg)](https://www.youtube.com/watch?v=Es7qvO_2kSg)
+](images/0.jpg)](https://www.youtube.com/watch?v=Es7qvO_2kSg)
 
 <p align="center"><i>Intersections of Openness: Open Access, Science, & Education. By Abby Elder, CC BY 4.0 International License. <a href="https://www.youtube.com/watch?v=Es7qvO_2kSg" >Source</a></i></p>
 
@@ -677,6 +677,3 @@ There is so much potential material out there that it would take years of contin
 **Know a way this content can be improved?**
 
 Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-1-Open-Principles/blob/master/content_development/MAIN.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
-
-[![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-

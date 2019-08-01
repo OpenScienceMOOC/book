@@ -6,8 +6,9 @@ r_packages:
   - bookdown
 
 script:
+  - rm -r docs/
   - mkdir docs/
-  - cp -r _book/ docs/
+  - cp -r _book/* docs/
 
 deploy:
   provider: pages                         # Specify the gh-pages deployment method
