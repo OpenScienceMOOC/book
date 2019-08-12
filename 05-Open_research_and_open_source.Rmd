@@ -1,11 +1,17 @@
-# Open Research Software and Open Source
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 
-## Table of Contents {-}
+# Module 5: Open Research Software and Open Source
+
+## Table of Contents
 
  - [Introduction](#Introduction)
  - [What is Open Source Software](#What_OSS)
  - [Principles of Open Source Software](#Principles)
- - [The Open Source community, governance, and contributions](#OS_Community)
+ - [The Open Source community and its governance](#OS_Community)
  - [Existing platforms and tools for Open Source Software](#Platforms)
  - [Open Source Software used in research](#Research)
  - [Getting Started with OSS - FAQ](#FAQ)
@@ -27,6 +33,7 @@ This module has been developed [in the open](https://github.com/OpenScienceMOOC/
 Don't forget you can join in the discussions over at our open [**Slack channel**](https://osmooc.herokuapp.com/). Please do introduce yourself at #module5opensource, and tell us a bit about who you are, your background, and how you ended up here!
 
 ### Who is this module for?
+
 This module is designed primarily for computational researchers at the graduate and undergraduate level, as well as budding data scientists and any other researcher who uses analytical code or software. In a modern day research environment, this covers pretty much anyone who uses a computer for ther work.
 
 > "An article about computational result is advertising, not scholarship. The actual scholarship is the full software environment, code and data, that produced the result." - J. Buckheit and D. L. Donoho, 1995.
@@ -39,6 +46,8 @@ The power of Open Source is in that it lowers the barriers to collaboration and 
 
 <p align="center"><i>Image by Patrick Hochstenbach (CC0 1.0 Universal)</i></p>
 
+<br/>
+
 ### **Specific learning objectives for this Module**:
 
 1. Learn the characteristics of open software; understand the **ethical, legal, economic, and research impact arguments for and against Open Source Software**, and further understand the quality requirements of open code.
@@ -47,7 +56,10 @@ The power of Open Source is in that it lowers the barriers to collaboration and 
 
 3. Use software (tools) that utilizes open content and encourages wider collaboration.
 
+<br/>
+
 ## What is Open Source Software <a name="What_OSS"></a>
+
 Virtually all modern scientific research workflows rely on a range of software tools, either operating on different datasets, with different parameters, and applied iteratively in various ways (data science) or operating on different inputs and using models and methods to predict some output state (computational science). Open Source Software (OSS) is computer software in which the full source code is available under a specific license that enables other users to access, view, modify, and redistribute that code for any purpose. Because OSS requires such a license, it typically remains free of charge by default. This explicit licensing is also what differentiates OSS from free software. Re-using OSS for analysis, simulation and visualisation for research is also typically easier and more flexible compared to proprietary software. Often, whether we know it or not, we are already using OSS as part of our own research workflows.
 
 OSS fits into the broader scheme of Open Science as it helps to make the full research environment, including the software that produced the research results, fully accessible and re-usable. As such, it forms a necessary component for the best practices ([Jiménez et al., 2018](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Jim%C3%A9nez%20et%20al.%2C%202018.pdf)) and repeatability and reproducibility of research (both personally and by others), along with other components, such as sharing data ([Stodden, 2010](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Stodden%2C%202010.pdf)).
@@ -76,7 +88,9 @@ As such, the main advantages for researchers (users) include **lower costs**, **
 
 Commonly used OSS include the [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/) internet browser and the [LibreOffice](https://www.libreoffice.org/) full office suite. LibreOffice is similar to the popular Microsoft Office, including a word processor, spreadsheet manager, and slide presentation software, but is completely free and Open Source.
 
-Some regard the OSS movement to represent a counter-movement to neoliberalism and privatisation, through defiance of regulations and norms in the construction and re-use of information, and a potential transformation of modern-day capitalism through making software abundantly available with minimal effort. See [The free/open source software movement: Resistance or change?](http://www.redalyc.org/html/742/74212712006/) by Panayiota Georgopoulou for more on this topic.
+Some regard the OSS movement to represent a counter-movement to neoliberalism and privatisation, through defiance of regulations and norms in the construction and re-use of information, and a potential transformation of modern-day capitalism through making software abundantly available with minimal effort. See [The free/open source software movement: Resistance or change?](https://doi.org/10.15448/1984-7289.2009.1.5569) by Panayiota Georgopoulou for more on this topic.
+
+<br/>
 
 ## Principles of Open Source Software <a name="Principles"></a>
 
@@ -106,6 +120,8 @@ The [Open Source Initiative](https://opensource.org/), one of the pioneers of OS
 
 Now, this all might be a little complex to remember. However, it can be summarised as *making software as re-usable as possible for future works, while also being freely available*.
 
+<br/>
+
 ## An Open Source checklist
 
 There are a number of existing platforms and tools that support OSS and collaboration. The [Open Science Training Handbook](https://open-science-training-handbook.gitbook.io/book/) provides a check-list to use for evaluating the 'openness' of existing research software, based on the Open Source Definition above:
@@ -124,15 +140,21 @@ There are a number of existing platforms and tools that support OSS and collabor
 
 Check, check, check, done! Simples.
 
+<br/>
+
 ## The Open Source community and its governance <a name="OS_Community"></a>
 
-There are two main camps within the free software community: The **free software movement**, and the **OSS movement**. Both have differing ideologies based on user liberties and the practical applications of software. Often, the term 'FLOSS' is used to reconcile these two political camps, and means 'Free/Libre and Open Source Software'; Libre being French and Spanish for 'free' in the context of freedom.
+There are two main camps within the free/libre and open source software (FLOSS) community: The **free software movement**, and the **open source software movement** (OSS). Both have differing ideologies based on user liberties and the practical applications of software. The term 'FLOSS' is used as a overaching neutral term to refer to both; libre being French and Spanish for 'free' in the context of freedom.
 
-The core principle of re-use is what separates OSS from 'Free Software'. Free and Open Source Software (FOSS) is an inclusive term to describe software that can be classified as both free and Open Source. A good example of FOSS is the [Ubuntu Linux](https://www.ubuntu.com/) operation system.
+In a similar way that people active in the open science movement are heterogeneous in their assumptions and aims, different opinions exist in the FLOSS community as well. Recalling module 1, two of the schools of thought in open science were the _Pragmatic school_ and the _Democratic school_. While the former is driven by the assumption that research could be more efficient if scientists worked together, the latter wants to set straight an unequal distribution of knowledge. They probably both end up sharing their research, but each with different intentions.
 
-The big difference between free software and OSS is that the former must distribute updated versions under the same license as the original, whereas newer versions of OSS can be distributed under different licenses. FOSS combines the best of both worlds.
+This is roughly comparable to the OSS and the free software movement: The latter evolved around 1983 to protect what they call the four essential freedoms of a program's user. These include the freedom to run, copy, distribute, study, change and improve a program. Software that respects these freedoms with an appropriate license is considered 'free'. The four freedoms are seen as vital for a society as a whole in the sense that they only enable sharing, cooperation and ultimately freedom in general. In this sense the free software movement is a social movement that creates an ethical imperative.
 
-These definitions have now become widely adopted, both by international governments, as well as some large organisations such as the [Mozilla Foundation](https://www.mozilla.org/en-US/foundation/) and the [Wikimedia Foundation](https://wikimediafoundation.org/wiki/Home). Major organisations in the FLOSS space include the UK's [Software Sustainability Institute](https://www.software.ac.uk/), who produce valuable resources such as their recent [Software Deposit Guidance for Researchers](https://softwaresaved.github.io/software-deposit-guidance/).
+The open source software movement, which splintered off in 1998, focuses on the practical advantages and does not campaign for principles. It is concerned with developing high-quality software, for which everyone's ability to obtain, modify and contribute back the source code is considered highly beneficial.
+
+Among multiple conclusions they arrive at, access to a program's source code is a shared one. Software thus may be considered _free_, _open source_, or both, according to agreed-on definitions by the Free Software Foundation ([FSF](https://www.gnu.org/philosophy/free-sw.html)) and the Open Source Initiative ([OSI](https://opensource.org/osd)). The FSF argues that free software is a subset of OSS, with only a [fraction](https://www.gnu.org/philosophy/free-open-overlap.html) being open source but nonfree.
+
+Thus, highlighting a particular license status of software in use—open source or free—is mostly about different philosophies, not about software not having the other status as well. Each movement has its share of problems explaining their term: _free_ means more than being gratis and _open source_ means more than having access to the source code. The [FSF](https://www.gnu.org/philosophy/open-source-misses-the-point.html) and the European counterpart [FSFE](https://fsfe.org/documents/whyfs.html) provide more information on this topic.
 
 ### For individual projects
 
@@ -145,6 +167,8 @@ A typical open source project has the following types of formal roles:
 - **Community Members**: People who use the project. They might be active in conversations, create new issues or express their opinion on the future project improvements.
 
 Typically, roles are made public through either the `README` file, a Contributors file, or a separate team page for the project.
+
+<br/>
 
 ## Existing platforms and tools for Open Source Software <a name="Platforms"></a>
 
@@ -176,6 +200,9 @@ However, we also know that GitHub can have quite a high learning curve. Which is
 
 **[GO TO TASK 1: Building your first GitHub repository](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md)**
 
+<br/>
+
+
 ## Open Source Software used in research <a name="Research"></a>
 
 Especially in scientific research, Open Source Software usage and development has become practically the norm. There's a number of reasons for this beyond those that apply to the general acceptance of OSS by, for example, consumers, industry, or government. Among these reasons are:
@@ -205,6 +232,7 @@ Tools such as R and Python are essentially software for writing software. Althou
 <br/>
 
 Lastly, OSS is also used in scientific research for reasons that more closely mirror those that drive the adoption of OSS in wider society, namely that it is cheap. For example, individuals or organizations might decide to switch from Microsoft Office to LibreOffice for manuscript writing or spreadsheet processing because the latter is free (both as in [**'free beer'**](https://www.youtube.com/watch?v=dQw4w9WgXcQ) and 'free speech'). Likewise, the choice to switch from ArcGIS to [QGIS](https://www.qgis.org/en/site/) for the analysis of geographic information might be prompted simply by cost considerations.
+<br/>
 
 ## Getting Started with OSS - FAQ <a name="FAQ"></a>
 
@@ -242,6 +270,8 @@ An extension of this that can help to make things even easier for future re-use 
 
 **Sustainable software is good software.**
 
+<br/>
+
 ## 10 simple rules for reproducible computational research
 
 The 10 simple rules for making computational research more reproducible, based on [Sandve et al., (2013)](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/Reading%20Material_Open%20Source%20and%20Open%20Research%20Software/Sandve%20et%20al.%2C%202013.PDF), are:
@@ -265,6 +295,8 @@ The 10 simple rules for making computational research more reproducible, based o
 
 If you follow these steps, along with the processes in [**Task 1**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_1.md) and [**Task 2**](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/Task_2.md), you should be fine!
 
+<br/>
+
 ## Open Source licensing <a name="Licensing"></a>
 
 An Open Source license is a type of license designed specifically for software and code that make it explicit what the legal conditions for sharing and re-use are. As mentioned [above](#What_OSS), the addition of a suitable license is what differentiates publicly shared software from OSS. For example, the widely used [MATLAB](https://www.mathworks.com/products/matlab.html) is proprietary software, and [Octave](https://www.gnu.org/software/octave/) is an openly licensed alternative programming language.
@@ -285,7 +317,9 @@ There are two ways in which contributions to a project become licensed:
 1. *Explicitly*, whereby the individual contribution has a clearly indicated license independent of the main project; or
 2. *Implicitly*, whereby the contribution falls under the original licensing code of the main project.
 
-Thankfully, the process of selecting an Open Source license is relatively trivial, thanks to user-friendly tools such as [Choose A License](https://choosealicense.com/). Each of these licenses allows other users to use, copy, distribute, and build upon your work, often while ensuring that the creators are appropriately recognised for their work. Here, the key is selecting an appropriate license for your work, depending on what you want, or do not want, others to do with it.
+Thankfully, the process of selecting an Open Source license is relatively trivial, thanks to user-friendly tools such as [Choose A License](https://choosealicense.com/) or [Public License Selector](https://ufal.github.io/public-license-selector/). Each of these licenses allows other users to use, copy, distribute, and build upon your work, often while ensuring that the creators are appropriately recognised for their work. Here, the key is selecting an appropriate license for your work, depending on what you want, or do not want, others to do with it.
+
+<br/>
 
 ## Software citation <a name="Citation"></a>
 
@@ -429,3 +463,5 @@ However, your Open Source journey does not stop here! This was just the beginnin
 **Know a way this content can be improved?**
 
 Time to take your new GitHub skills for a test-run! All content development primarily happens [here](https://github.com/OpenScienceMOOC/Module-5-Open-Research-Software-and-Open-Source/blob/master/content_development/MAIN.md). If you have a suggested improvement to the content, layout, or anything else, you can make it and then it will automatically become part of the MOOC content after verification from a moderator!
+
+[![CC0 Public Domain Dedication](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
