@@ -22,6 +22,8 @@ description: "This is an example of using the bookdown package to write the Open
 ## Warning - Tentative book {-}
 As of now, this book is purely done out of free time here and there and serve only as a proof of concept to provide a portable/downloadable format for the Open Science MOOC content available on Eliademy. This is an example of using the bookdown package to write the Open Science MOOC Book that will link all modules and supplemental material.
 
+Please see https://github.com/OpenScienceMOOC/book to look at or participate in the book development.
+
 ## Rationale {-}
 Research is getting a global makeover, in part thanks to the power of the internet and the tools it provides for us, and in part due to a growing call for accountability (e.g., reproducibility and data provenance) in research. Global policies are emerging at different levels that include some aspect of Open Research, Open Scholarship, or Open Science, and inclusive of all research disciplines. But our universities are often letting us down, and they are not teaching us the knowledge, tools and skills we need to do research effectively in the 21st century.
 
